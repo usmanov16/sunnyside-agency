@@ -4,36 +4,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
+  border: none;
 }
 
+html,body {
+  overflow-x: hidden;
+}
 html {
-  height: 100%;
-  scroll-behavior: smooth;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
-
-ul,
-ol {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
+  color: var(--white);
+
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
-  display: flex;
-  height: 100%;
+  font-family: var(--first-font);
+  font-size: var(--size-font);
+  font-weight: var(--semi-font);
+  background-color: var(--white);
+  color: var(--dark-grayish-blue);
+  margin: 0;
 }
-main {
-  flex-grow: 1;
-}
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-// text
